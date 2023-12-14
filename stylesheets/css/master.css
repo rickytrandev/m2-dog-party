@@ -1,0 +1,93 @@
+body {
+    font-fam 11ily: 'Raleway', sans-serif;
+}
+h1 {
+    font-weight: 500;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: underline;
+}
+
+footer > p {
+    color: white;
+}
+
+.dog-logo {
+    width: 35px;
+    position: absolute;
+}
+
+.links {
+    display: inline-block
+}
+
+.navbar {
+    background-color: #92E0E4;
+    height: 50px;
+}
+
+.banner {
+    background-image: url('/images/park.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.dog-portrait {
+    border-radius: 50%;
+    border: 3px solid #4A8EA6;
+    width: 200px;
+}
+
+.main-dog {
+    border: 5px solid #4A8EA6;
+    width: 300px;
+}
+
+.dog-cards {
+    display: flex
+}
+
+.dog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px
+}
+
+footer {
+background-color: #3E8DA8;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 200px;
+}
+
+button {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: #5497B0;
+    border: 3px solid #3E8DA8;
+    padding: 5px 10px;
+}
+
+.social-icons {
+    width: 45px;
+}
